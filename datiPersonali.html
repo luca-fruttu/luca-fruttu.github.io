@@ -1,0 +1,51 @@
+<!doctype html>
+
+    <html>
+        <head> 
+            <title> datiPersonali </title>
+        </head>
+        
+        <body>
+            <form method = "POST" action = "datiPersonali.php">
+            
+            Cognome: <input type="text" size="12" maxlength="24" name="Cognome"> <br>
+            
+            Nome: <input type="text" size="12" maxlength="24" name="Nome"> <br>
+            
+            Sesso: <br>
+            
+                Uomo: &nbsp <input type="radio" value="Uomo" name="Sesso"> <br>
+            
+                Donna: <input type="radio" value="Donna" name="Sesso"> <br> <br>
+            
+            Scegli i cibi che preferisci: <br> 
+            
+                Bistecca: <input type="checkbox" value="Bistecca" name="Cibo[]"> <br>
+            
+                Pizza: &nbsp&nbsp&nbsp&nbsp <input type="checkbox" value="Pizza" name="Cibo[]"> <br>
+            
+                Pollo: &nbsp&nbsp&nbsp&nbsp <input type="checkbox" value="Pollo" name="Cibo[]"> <br> <br>
+            
+            <textarea rows="5" cols="20" name="Citazione">
+            
+                Inserisci la tua citazione preferita: 
+            
+            </textarea> <br> <br>
+            
+            Seleziona il tuo livello di istruzione scolastica: <br>
+            
+            <select name="Istruzione">
+            
+                <option value="Scuola media"> Medie </option>
+                <option value="Scuola superiore"> Superiori </option>
+                <option value="Università"> Università </option>
+            
+            </select> <br> <br>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Ok">
+            
+            </form>
+        </body>
+    </html>
+    
